@@ -14,3 +14,4 @@ Full Stack E-Commerce Application using:
 - Wishlist
 - Orders
 - Admin Dashboard
+  git add README.md

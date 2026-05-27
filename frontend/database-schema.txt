@@ -1,0 +1,57 @@
+DATABASE NAME: ecommerce_app
+
+-----------------------------------
+TABLE: users
+-----------------------------------
+id
+name
+email
+password
+role
+created_at
+
+-----------------------------------
+TABLE: products
+-----------------------------------
+id
+name
+description
+price
+category
+image_url
+stock
+created_at
+
+-----------------------------------
+TABLE: cart
+-----------------------------------
+id
+user_id
+product_id
+quantity
+
+-----------------------------------
+TABLE: wishlist
+-----------------------------------
+id
+user_id
+product_id
+
+-----------------------------------
+TABLE: orders
+-----------------------------------
+id
+user_id
+total_amount
+status
+shipping_address
+created_at
+
+-----------------------------------
+TABLE: order_items
+-----------------------------------
+id
+order_id
+product_id
+quantity
+price
