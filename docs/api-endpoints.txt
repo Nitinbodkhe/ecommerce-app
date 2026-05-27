@@ -1,0 +1,137 @@
+========================================
+E-COMMERCE APPLICATION API ENDPOINTS
+========================================
+
+----------------------------------------
+AUTHENTICATION APIs
+----------------------------------------
+
+1. Register User
+Method: POST
+Endpoint: /api/auth/register
+Purpose: Register a new user
+
+2. Login User
+Method: POST
+Endpoint: /api/auth/login
+Purpose: Authenticate user and return JWT token
+
+
+----------------------------------------
+PRODUCT APIs
+----------------------------------------
+
+3. Get All Products
+Method: GET
+Endpoint: /api/products
+Purpose: Fetch all products
+
+4. Get Product By ID
+Method: GET
+Endpoint: /api/products/{id}
+Purpose: Fetch single product details
+
+5. Add Product
+Method: POST
+Endpoint: /api/products
+Purpose: Add a new product
+
+6. Update Product
+Method: PUT
+Endpoint: /api/products/{id}
+Purpose: Update product details
+
+7. Delete Product
+Method: DELETE
+Endpoint: /api/products/{id}
+Purpose: Delete product
+
+
+----------------------------------------
+CART APIs
+----------------------------------------
+
+8. Add To Cart
+Method: POST
+Endpoint: /api/cart
+Purpose: Add product to cart
+
+9. Get Cart Items
+Method: GET
+Endpoint: /api/cart
+Purpose: Fetch cart items
+
+10. Remove Cart Item
+Method: DELETE
+Endpoint: /api/cart/{id}
+Purpose: Remove item from cart
+
+
+----------------------------------------
+WISHLIST APIs
+----------------------------------------
+
+11. Add To Wishlist
+Method: POST
+Endpoint: /api/wishlist
+Purpose: Add product to wishlist
+
+12. Get Wishlist Items
+Method: GET
+Endpoint: /api/wishlist
+Purpose: Fetch wishlist items
+
+13. Remove Wishlist Item
+Method: DELETE
+Endpoint: /api/wishlist/{id}
+Purpose: Remove item from wishlist
+
+
+----------------------------------------
+ORDER APIs
+----------------------------------------
+
+14. Place Order
+Method: POST
+Endpoint: /api/orders
+Purpose: Place a new order
+
+15. Get User Orders
+Method: GET
+Endpoint: /api/orders
+Purpose: Fetch order history
+
+
+----------------------------------------
+ADMIN APIs
+----------------------------------------
+
+16. Get All Orders
+Method: GET
+Endpoint: /api/admin/orders
+Purpose: Admin can view all orders
+
+17. Update Order Status
+Method: PUT
+Endpoint: /api/admin/orders/{id}
+Purpose: Update order status
+
+
+----------------------------------------
+OPTIONAL APIs
+----------------------------------------
+
+18. Search Products
+Method: GET
+Endpoint: /api/products/search?keyword=mobile
+Purpose: Search products
+
+19. Filter Products By Category
+Method: GET
+Endpoint: /api/products/category/{category}
+Purpose: Filter products by category
+
+20. Get User Profile
+Method: GET
+Endpoint: /api/users/profile
+Purpose: Fetch logged-in user profile
